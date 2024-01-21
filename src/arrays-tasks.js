@@ -130,7 +130,7 @@ function getAverage(arr) {
 
   return Number.isInteger(sum / arr.length)
     ? sum / arr.length
-    : Number((sum / arr.length)).toFixed(2);
+    : +(sum / arr.length).toFixed(2);
 }
 
 /**
